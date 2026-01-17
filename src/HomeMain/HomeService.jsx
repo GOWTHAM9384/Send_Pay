@@ -15,10 +15,10 @@ const HomeService = () => {
         </div>
 
         <div className='grid grid-cols-1 md:grid-cols-2 place-items-center mt-10 gap-5'>
-          <Card property={'flex gap-2 varient={"w-full md:w-[100]"}'} img={service1 } varient={'text-start'}/>
-          <Card property={'flex gap-2 varient={"w-full md:w-[100]"}'} img={service2 } varient={'text-start'}/>
-          <Card property={'flex gap-2 varient={"w-full md:w-[100]"}'} img={service3 } varient={'text-start'}/>
-          <Card property={'flex gap-2 varient={"w-full md:w-[100]"}'} img={service4 } varient={'text-start'}/>
+          <Card property={'flex gap-2 varient={"w-full}'} img={service1 } varient={'text-start'}/>
+          <Card property={'flex gap-2 varient={"w-full"}'} img={service2 } varient={'text-start'}/>
+          <Card property={'flex gap-2 varient={"w-full"}'} img={service3 } varient={'text-start'}/>
+          <Card property={'flex gap-2 varient={"w-full"}'} img={service4 } varient={'text-start'}/>
 
         </div>
       </div>

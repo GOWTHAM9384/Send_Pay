@@ -17,9 +17,9 @@ const CardSection = () => {
         </div>
 
         <div className='mt-30 grid grid-cols-1 md:grid-cols-3 place-items-center'>
-          <Card img={card1} content={'mt-5'} property={"w-full]] md:w-[100]"}/>
-          <Card img={card2} content={'mt-5'} property={"w-full md:w-[100]"}/>
-          <Card img={card3} content={'mt-5'} property={"w-full md:w-[100]"}/>
+          <Card img={card1} content={'mt-5'} property={"w-full"}/>
+          <Card img={card2} content={'mt-5'} property={"w-full"}/>
+          <Card img={card3} content={'mt-5'} property={"w-full"}/>
         </div>
       </div>
     </>
