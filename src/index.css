@@ -1,0 +1,12 @@
+@import "tailwindcss";
+
+
+.blue{
+  color:rgba(108, 99, 255, 1)
+}
+
+.bgb{
+  background-color: rgba(108, 99, 255, 1);
+}
+
+
