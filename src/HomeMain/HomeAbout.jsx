@@ -24,9 +24,9 @@ const HomeAbout = () => {
           </div>
 
           <div className='flex gap-10 flex-wrap justify-center'>
-            <DevCard img={dev1} />
-            <DevCard img={dev2} />
-            <DevCard img={dev3} />
+            <DevCard img={dev1} varient={"w-fit md:w-80"}/>
+            <DevCard img={dev2} varient={"w-fit md:w-80"}/>
+            <DevCard img={dev3} varient={"w-fit md:w-80"}/>
           </div>
         </div>
       </div>

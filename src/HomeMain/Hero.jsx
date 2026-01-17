@@ -10,7 +10,7 @@ const Hero = () => {
         <h1 className='text-4xl flex flex-col gap-2 md:text-5xl text-center md:text-left'><span className='block '>Sending Money is</span>
           <span className='block'>Easier than before</span></h1>
 
-        <p className='w-100 px-10 md:px-0 md:text-2xl text-gray-500 text-center md:text-left '>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Sed sed consectetur libero. Curabitur.</p>
+        <p className='md:w-100 px-10 md:px-0 md:text-2xl text-gray-500 text-center md:text-left '>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Sed sed consectetur libero. Curabitur.</p>
 
         <div className='flex gap-6 justify-center md:justify-start'>
           <Buton text="Register" varient="p-2 bgb text-white px-5 border border-[#353434] font-bold" />

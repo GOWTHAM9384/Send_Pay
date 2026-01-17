@@ -1,9 +1,9 @@
 import React from 'react'
 
-const DevCard = ({ img }) => {
+const DevCard = ({ img ,varient}) => {
   return (
     <>
-      <div className='w-80 bg-white rounded-2xl p-5 '>
+      <div className={`w-80 bg-white rounded-2xl p-5 ${varient}`}>
 
         <div>
           <p className='italic'>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Duis in aliquet justo. Nulla varius vitae.</p>
