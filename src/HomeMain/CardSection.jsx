@@ -16,10 +16,10 @@ const CardSection = () => {
           </p>
         </div>
 
-        <div className='mt-30 grid grid-cols-1 md:grid-cols-3'>
-          <Card img={card1} content={'mt-5'}/>
-          <Card img={card2} content={'mt-5'}/>
-          <Card img={card3} content={'mt-5'}/>
+        <div className='mt-30 grid grid-cols-1 md:grid-cols-3 place-items-center'>
+          <Card img={card1} content={'mt-5'} varient={"w-full md:w-[100]"}/>
+          <Card img={card2} content={'mt-5'} varient={"w-full md:w-[100]"}/>
+          <Card img={card3} content={'mt-5'} varient={"w-full md:w-[100]"}/>
         </div>
       </div>
     </>
