@@ -2,7 +2,7 @@ import React from 'react'
 
 const Card = ({ img ,varient,property,content}) => {
   return (
-    <div className={`w-[100] p-5 ${property} text-center`}>
+    <div className={`p-5 ${property} text-center`}>
       <img src={img} alt="" className='mx-auto' />
       <div className={`${content} flex flex-col justify-center`}>
         <h3 className={`text-2xl font-bold text-center ${varient}`}>In-app transer</h3>
